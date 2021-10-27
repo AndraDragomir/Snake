@@ -1,0 +1,40 @@
+.map {
+  border: 5px solid;
+  height: 300px;
+  width: 300px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.points-container {
+  text-align: center;
+}
+
+.snake {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  position: absolute;
+  background-color: black;
+}
+
+.snake:last-of-type {
+  background-color: red;
+}
+
+.snake-element {
+  outline: 1px solid #eee;
+}
+
+.food {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  background-color: blue;
+}
+
+.game-over-container {
+  text-align: center;
+  display: none;
+}
